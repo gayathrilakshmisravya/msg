@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Box</title>
+    <style>
+        body{
+           background-image: url(https://wallpapercave.com/wp/wp2590324.jpg);
+           text-align: center;
+           margin-top: 250px;
+           }
+        label{
+            color:red;
+        }
+        h2{
+            font-size: 50px;
+        }
+        label{
+            font-size: 30px ;
+        }
+        input{
+            padding: 20px;
+            font-size: 20px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 45px;
+            background-color: #8b21a6;
+            color: black;
+        }
+        p{
+            color: #bd20b7;
+            font-size: 25px;
+        }
+
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div><h2>Text The Message</h2></div>
+        <label><b>Enter a message</b></label><br>
+        <input type="text" name="msg-ip" id="msg-ip" placeholder="Drop your msg"><br><br>
+        <button id="click" onclick="getmsg()">Submit</button>
+        <button id="click" onclick="getmsg()">Reset</button>
+        <p id="msg-op"></p>
+    </div>
+</body>
+<script src="msg.js"></script>
+</html>
